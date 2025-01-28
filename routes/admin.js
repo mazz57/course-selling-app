@@ -49,7 +49,7 @@ adminRouter.post('/course',async function(req, res) {
     });
     
     res.json({
-        message: "Course created successfully"
+        message: "Course created successfully",
         creatorid:course._id
     });
 });
